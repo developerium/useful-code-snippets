@@ -1,0 +1,20 @@
+/* Use different styles on links based on destination */
+
+a[href^="http://"]{
+    padding-right: 20px;
+    background: url(external.gif) no-repeat center right;
+}
+/* emails */
+a[href^="mailto:"]{
+    padding-right: 20px;
+    background: url(email.png) no-repeat center right;
+}
+
+/* pdfs */
+a[href$=".pdf"]{
+    padding-right: 20px;
+    background: url(pdf.png) no-repeat center right;
+}
+
+/* to copy this snippet, go to: */
+/* github.com/developerium/useful-code-snippets */
