@@ -2,7 +2,7 @@
 // you can use React.Children helper function
 import React from 'react';
 
-// note the lowercase children passed in as props
+// note the lowercase children passed-in as props
 const KidCounter = ({ children }) => (
   <div>{React.Children.count(children)}</div>
 );
