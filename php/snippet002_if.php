@@ -1,4 +1,4 @@
-<?php // #1 If construct
+<?php // #2 If construct
 
 // The construct below tests to see if
 // $variable evaluates to any "truthy" value.
