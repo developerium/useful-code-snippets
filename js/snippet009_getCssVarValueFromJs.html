@@ -1,0 +1,23 @@
+<!-- js#9 Access Css variable's value -->
+
+<style>
+  :root {
+    --bg-color: #336699;
+  }
+  .element {
+    background-color: var(--bg-color);
+  }
+</style>
+
+<script>
+  const color = getComputedStyle(
+    document.documentElement,
+  ).getPropertyValue('--bg-color');
+
+  console.log(color); // #336699
+</script>
+
+<!--
+  to copy this snippet, go to
+  github.com/developerium/useful-code-snippets
+-->
