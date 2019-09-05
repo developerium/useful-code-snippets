@@ -3,13 +3,13 @@
 // has taken to complete by marking start, and
 // end of task
 
-console.time('someWork');
+console.time('myWork');
 
 // do some time-sensitive work
 // ...
 
-console.timeEnd('someWork');
-// will log => someWork: 14567.882080078125ms
+console.timeEnd('myWork');
+// will log => myWork: 14567.882080078125ms
 
 // to copy this snippet, go to:
 // github.com/developerium/useful-code-snippets
