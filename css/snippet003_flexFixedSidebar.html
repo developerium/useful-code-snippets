@@ -1,0 +1,28 @@
+<!--
+  css#3 Flex fixed sidebar on the left with
+  main content on the right which will expand
+  to fill available space
+-->
+<style>
+  .parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .fixed-width {
+    /* width with flex won't work */
+    flex-basis: 400px;
+    flex-shrink: 0;
+  }
+
+  .main-content {
+    /* let it fill available space */
+    flex-grow: 1;
+  }
+</style>
+
+<div class="parent">
+  <div class="fixed-width">left sidebar</div>
+  <div class="main-content">our content</div>
+</div>
