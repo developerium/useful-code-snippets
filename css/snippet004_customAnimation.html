@@ -1,0 +1,21 @@
+<!-- css#4 Custom animation -->
+<style>
+  /* define animation with a custom name */
+  @keyframes my-custom-animation {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  .fancy {
+    /* duration for the animation to complete */
+    animation-duration: 3s;
+    animation-name: my-custom-animation;
+  }
+</style>
+<p class="fancy">I will slide from right to left!</p>
