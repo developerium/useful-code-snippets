@@ -7,6 +7,5 @@ const basket = new Array(3);
 basket.fill('apple');
 // basket : ["apple", "apple", "apple"]
 
-
 // to copy this snippet, go to:
 // github.com/developerium/useful-code-snippets
