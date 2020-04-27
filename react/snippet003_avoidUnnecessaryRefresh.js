@@ -1,3 +1,4 @@
+// reactjs#003 avoid unnecessary refresh
 import React from 'react';
 
 // Because of how Javascript objects work,
@@ -16,6 +17,10 @@ const BadComponent = props => (
   />
 );
 
+// Using a static variable makes sure that
+// the BigComponent will always get the same
+// reference to the variable,
+// therefore no unnecessary renders!
 const defaultParams = {
   first: true,
   second: false,
